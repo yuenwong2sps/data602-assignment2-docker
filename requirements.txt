@@ -9,6 +9,6 @@ scikit-learn
 matplotlib
 plotly
 datetime
-pymongo
+pymongo==3.4.0
 re
 collections
