@@ -5,8 +5,8 @@ RUN apk update && apk upgrade && \
 
 WORKDIR /usr/src/app
 
-RUN install libc-dev
-RUN install build-essential
+RUN pip install libc-dev
+RUN pip install build-essential
 RUN pip install -U pip
 
 COPY requirements.txt ./
