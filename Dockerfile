@@ -1,7 +1,7 @@
 FROM alpine:3.6
 
 RUN apk update && apk upgrade && \
-    apk add --no-cache git \
+    apk add --no-cache git
 		 
 RUN apk add python py-pip python-dev 
 
