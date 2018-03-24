@@ -14,7 +14,7 @@ RUN apk add --no-cache --virtual .build-deps \
     g++
 
 # Fix scipy
-RUN apt-get install -y libblas-dev liblapack-dev
+RUN pip install libblas-dev liblapack-dev
 
 		 
 RUN pip install --upgrade pip
