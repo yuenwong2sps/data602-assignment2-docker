@@ -2,8 +2,19 @@ FROM python:3.6.1-alpine
 
 RUN apk update && apk upgrade && \
     apk add --no-cache git
-		 
 
+RUN apk --update add --no-cache \ 
+    gcc \
+    freetype-dev
+
+# Install dependencies
+RUN apk add --no-cache --virtual .build-deps \
+    gfortran \
+    musl-dev \
+    g++
+
+		 
+RUN pip install --upgrade pip
 
 WORKDIR /usr/src/app
 
