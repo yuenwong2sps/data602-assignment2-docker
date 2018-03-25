@@ -3,11 +3,10 @@ requests
 urllib3
 Flask
 numpy
-scipy
 pandas
-scikit-learn
 matplotlib
 plotly
 datetime
 pymongo==3.4.0
+
 
