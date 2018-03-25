@@ -13,11 +13,12 @@ RUN apk add --no-cache --virtual .build-deps \
     musl-dev \
     g++
 
-# Fix scipy
-RUN pip install libblas-dev liblapack-dev
-
-		 
 RUN pip install --upgrade pip
+
+# Fix scipy
+#RUN pip install libblas-dev liblapack-dev
+
+		
 
 WORKDIR /usr/src/app
 
