@@ -4,9 +4,7 @@ urllib3
 Flask
 numpy
 pandas
-matplotlib
-plotly
 datetime
 pymongo==3.4.0
-
+flask_socketio
 

@@ -15,6 +15,8 @@ RUN apk add --no-cache --virtual .build-deps \
 
 RUN pip install --upgrade pip
 
+RUN pip install flask-socketio
+
 # Fix scipy
 #RUN pip install libblas-dev liblapack-dev
 
