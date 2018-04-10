@@ -8,3 +8,4 @@ datetime
 pymongo==3.4.0
 flask_socketio
 websocket-client
+sortedcontainers

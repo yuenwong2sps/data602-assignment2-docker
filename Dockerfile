@@ -19,6 +19,9 @@ RUN pip install flask-socketio
 
 RUN pip install websocket-client
 
+RUN pip install sortedcontainers
+
+
 # Fix scipy
 #RUN pip install libblas-dev liblapack-dev
 
