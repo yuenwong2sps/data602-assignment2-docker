@@ -17,6 +17,8 @@ RUN pip install --upgrade pip
 
 RUN pip install flask-socketio
 
+RUN pip install websocket-client
+
 # Fix scipy
 #RUN pip install libblas-dev liblapack-dev
 
